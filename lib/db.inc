@@ -34,10 +34,10 @@ class Db
 	{
 		$this->Connection= (""==$dbname) ?
 		mysqli_connect($this->Server,$this->User,$this->Password,$this->DbName):
-		mysqli_connect($this->server,$this->user,$this->password,$dbname);
+		mysqli_connect($this->Server,$this->User,$this->Password,$dbname);
 	}
 
-	private function query($QueryStringString)
+	private function query($QueryString)
 	{
 		//free memory
 		if($this->ResultSet)
