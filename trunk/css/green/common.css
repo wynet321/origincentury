@@ -1,0 +1,23 @@
+* {
+	list-style: none;
+}
+
+body {
+	margin: 0px;
+	text-align: center;
+	width: 1000px;
+	background: #77c313;
+	font: 18px Arial, sans-serif;
+}
+
+div#page {
+	background: -webkit-gradient(linear, left top, left bottom, from(#01ffff),
+		to(#019fa0) );
+	filter: progid : DXImageTransform.Microsoft.Gradient (   startColorstr =
+		'#c5e727', endColorstr =   '#77c313' );
+	background: -moz-linear-gradient(top, #01ffff, #8acf1a);
+	width: 1000px;
+	padding: 0px 200px 0px 200px;
+	color: #ffffff;
+	text-shadow: 1px 1px 0px #000;
+}
